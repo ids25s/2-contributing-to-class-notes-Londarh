@@ -61,4 +61,13 @@ indicating that this is actually single word.
 
   + Go to your GitHub account and find the forked repo. Copy the SSH key
   + Now go to an appropriate folder on PC and type `git clone "paste SSH"` in VS Code.
-  
+
+**c. Render the classnotes on your computer.**
+
+  + Open the folder, where you copied the notes, in VS Code
+  + Now type `quarto render index.qmd` - it will take some time to execute
+  + New *"_book"* folder was created. Type `cd _book` and them `start index.html`
+  + The notes should open now in browser
+
+
+
