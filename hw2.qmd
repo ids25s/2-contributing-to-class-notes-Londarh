@@ -69,5 +69,12 @@ indicating that this is actually single word.
   + New *"_book"* folder was created. Type `cd _book` and them `start index.html`
   + The notes should open now in browser
 
+**d. Make a new branch (and name it appropriately) to experiment with your changes.**
+
+  + Go back to the main folder with the github repo (the name is probably *"ids-s25"*)
+  + Type `git branch` to see the existing branches
+  + There is probably only one *"main"* branch
+  + Now type `git checkout -b <name of your branch>`, it will create a new branch
+  and switch to it automatically. If you want to go back to main branch, type `git checkout main`
 
 
