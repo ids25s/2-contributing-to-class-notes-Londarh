@@ -83,5 +83,7 @@ indicating that this is actually single word.
   + Type `git add index.qmd`
   + Type `git commit -m "message"` - make sure to provide an informative messasge!
   + Type `git push origin <name of your branch>`
+
+**f. Make a pull request to class notes repo from your fork at GitHub**
   
-   
+
