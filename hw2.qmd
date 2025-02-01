@@ -51,5 +51,13 @@ name of the file does not have spaces in it, or you will have to always add " ",
 indicating that this is actually single word.
 
 # Contributing to the class notes
+**a. Create a fork of the notes repo into your own GitHub account.**
 
+  + Firstly, we need to go to HuskyCT -> STAT 3255, and open syllabus. 
+  + Go to the classnotes link, then go to the github repo using link, provided in the classsnotes. 
+  + Now we are at GitHub. Click *"fork"* button and create a fork of a repo to your account.
+  
+     
+  We go to the link and accept the assignment. Now we are on GitHub - copy the SSH key,
+  go to appropriate folder on our PC and type `git clone "SSH key"` in VS Code. 
 
