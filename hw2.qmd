@@ -1,6 +1,6 @@
 ---
 title: "Homework Assignment 2"
-author: "Jun Yan"
+author: "Vlad Lagutin"
 toc: true
 number-sections: true
 highlight-style: pygments
