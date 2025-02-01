@@ -1,0 +1,55 @@
+---
+title: "Homework Assignment 2"
+author: "Jun Yan"
+toc: true
+number-sections: true
+highlight-style: pygments
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  pdf: 
+    geometry: 
+      - top=30mm
+      - left=20mm
+
+---
+
+# Working on Homework Problems  
+  + a. **What are the differences between binary and source files?**
+
+The binary files are pdf, html, jpg; source files are python, ipynb, qmd files.
+Source files are basically where you write the code, and binary files can 
+sometimes be compiled from the source files.
+
+  + b. **Why do we not want to track binary files in a repo?**
+
+We do not want to track binary files in a repo, because they can be always compiled from
+source files. Moreover, every change in source does change the binary, making it 
+unpractical and excessive to have them in a repo.
+
+  + c. **Why do I require pdf output via release?**
+
+Because it makes the work of a grader easier: they do not have to clone
+the repo to their PC all the time, and just go to releases tab.
+
+  + d. **Why do I not want your files added via ‘upload’?**
+
+Because we need to practice git and command line interface,
+so we should push files and not 'upload' them.
+
+  + e. **Why do I require line width under 80?**
+
+Because it is easier to see the changes made to the code (`git diff`),
+while proposing the changes to main repo.
+
+  + f. **Why is it not a good idea to have spaces in file/folder names?**
+
+It requires extra time and characters, when you write code which has a file name in it.
+For example, `cd "file path"` or `git add "file name"` is easier to write when the
+name of the file does not have spaces in it, or you will have to always add " ",
+indicating that this is actually single word.
+
+# Contributing to the class notes
+
+
