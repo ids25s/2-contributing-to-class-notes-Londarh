@@ -88,6 +88,6 @@ indicating that this is actually single word.
 
   + Go to Forked repo in your Github account, change the branch to created one
   + Go to contribute -> Open pull request
-  
+  + Review your commits and changes, provide a clear comment and create a pull request 
 
 
