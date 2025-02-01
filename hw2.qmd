@@ -56,8 +56,9 @@ indicating that this is actually single word.
   + Firstly, we need to go to HuskyCT -> STAT 3255, and open syllabus. 
   + Go to the classnotes link, then go to the github repo using link, provided in the classsnotes. 
   + Now we are at GitHub. Click *"fork"* button and create a fork of a repo to your account.
-  
-     
-  We go to the link and accept the assignment. Now we are on GitHub - copy the SSH key,
-  go to appropriate folder on our PC and type `git clone "SSH key"` in VS Code. 
 
+**b. Clone it to an appropriate folder on your computer.**
+
+  + Go to your GitHub account and find the forked repo. Copy the SSH key
+  + Now go to an appropriate folder on PC and type `git clone "paste SSH"` in VS Code.
+  
