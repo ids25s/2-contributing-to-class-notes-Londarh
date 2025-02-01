@@ -77,4 +77,11 @@ indicating that this is actually single word.
   + Now type `git checkout -b <name of your branch>`, it will create a new branch
   and switch to it automatically. If you want to go back to main branch, type `git checkout main`
 
+**e. Checkout your branch and add your wishes to the wish list; commit with an informative message; and push the changes to your GitHub account.**
 
+  + Open index.qmd and write your wishes under your name
+  + Type `git add index.qmd`
+  + Type `git commit -m "message"` - make sure to provide an informative messasge!
+  + Type `git push origin <name of your branch>`
+  
+   
