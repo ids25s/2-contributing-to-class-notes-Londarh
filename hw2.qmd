@@ -1,0 +1,93 @@
+---
+title: "Homework Assignment 2"
+author: "Vlad Lagutin"
+toc: true
+number-sections: true
+highlight-style: pygments
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  pdf: 
+    geometry: 
+      - top=30mm
+      - left=20mm
+
+---
+
+# Working on Homework Problems  
+  + a. **What are the differences between binary and source files?**
+
+The binary files are pdf, html, jpg; source files are python, ipynb, qmd files.
+Source files are basically where you write the code, and binary files can 
+sometimes be compiled from the source files.
+
+  + b. **Why do we not want to track binary files in a repo?**
+
+We do not want to track binary files in a repo, because they can be always compiled from
+source files. Moreover, every change in source does change the binary, making it 
+unpractical and excessive to have them in a repo.
+
+  + c. **Why do I require pdf output via release?**
+
+Because it makes the work of a grader easier: they do not have to clone
+the repo to their PC all the time, and just go to releases tab.
+
+  + d. **Why do I not want your files added via ‘upload’?**
+
+Because we need to practice git and command line interface,
+so we should push files and not 'upload' them.
+
+  + e. **Why do I require line width under 80?**
+
+Because it is easier to see the changes made to the code (`git diff`),
+while proposing the changes to main repo.
+
+  + f. **Why is it not a good idea to have spaces in file/folder names?**
+
+It requires extra time and characters, when you write code which has a file name in it.
+For example, `cd "file path"` or `git add "file name"` is easier to write when the
+name of the file does not have spaces in it, or you will have to always add " ",
+indicating that this is actually single word.
+
+# Contributing to the class notes
+**a. Create a fork of the notes repo into your own GitHub account.**
+
+  + Firstly, we need to go to HuskyCT -> STAT 3255, and open syllabus. 
+  + Go to the classnotes link, then go to the github repo using link, provided in the classsnotes. 
+  + Now we are at GitHub. Click *"fork"* button and create a fork of a repo to your account.
+
+**b. Clone it to an appropriate folder on your computer.**
+
+  + Go to your GitHub account and find the forked repo. Copy the SSH key
+  + Now go to an appropriate folder on PC and type `git clone "paste SSH"` in VS Code.
+
+**c. Render the classnotes on your computer.**
+
+  + Open the folder, where you copied the notes, in VS Code
+  + Now type `quarto render index.qmd` - it will take some time to execute
+  + New *"_book"* folder was created. Type `cd _book` and them `start index.html`
+  + The notes should open now in browser
+
+**d. Make a new branch (and name it appropriately) to experiment with your changes.**
+
+  + Go back to the main folder with the github repo (the name is probably *"ids-s25"*)
+  + Type `git branch` to see the existing branches
+  + There is probably only one *"main"* branch
+  + Now type `git checkout -b <name of your branch>`, it will create a new branch
+  and switch to it automatically. If you want to go back to main branch, type `git checkout main`
+
+**e. Checkout your branch and add your wishes to the wish list; commit with an informative message; and push the changes to your GitHub account.**
+
+  + Open index.qmd and write your wishes under your name
+  + Type `git add index.qmd`
+  + Type `git commit -m "message"` - make sure to provide an informative messasge!
+  + Type `git push origin <name of your branch>`
+
+**f. Make a pull request to class notes repo from your fork at GitHub**
+
+  + Go to Forked repo in your Github account, change the branch to created one
+  + Go to contribute -> Open pull request
+  + Review your commits and changes, provide a clear comment and create a pull request 
+
+
